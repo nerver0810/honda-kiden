@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./css/custom.css" rel="stylesheet">
+<title>Hello, world!</title>
+</head>
+<body>
+<div class="container-fluid text-white border-bottom bg-primary">
+   <div class="row d-none d-lg-flex">
+      <div class="col-lg-6">
+         <p class="m-0 py-2 small">創業昭和45年。長年培った技術とノウハウを生かして業務を行っております。 </p>
+      </div>
+      <div class="col-lg-6 text-end">
+         <p class="m-0 py-2 small"> TEL：011-816-8899　FAX：011-816-8889 </p>
+      </div>
+   </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top border-bottom shadow">
+   <div class="container-fluid">
+      <a class="navbar-brand" href="#">HONDAKIDEN</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                     <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+               </ul>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+         </ul>
+         <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+         </form>
+      </div>
+   </div>
+</nav>
+<!-- Start of Slide  -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+   <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+   </div>
+   <div class="carousel-inner">
+      <div class="carousel-item active">
+         <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#666"></rect>
+            <text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text>
+         </svg>
+      </div>
+      <div class="carousel-item">
+         <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#555"></rect>
+            <text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text>
+         </svg>
+      </div>
+      <div class="carousel-item">
+         <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#333"></rect>
+            <text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text>
+         </svg>
+      </div>
+   </div>
+   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   <span class="visually-hidden">Previous</span>
+   </button>
+   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+   <span class="visually-hidden">Next</span>
+   </button>
+</div>
+<!-- End of Slide  -->
+
+<!-- Start of Multi Slide Carousel   -->
+<div class="container-fluid g-0 text-center bg-light mb-5">
+   <div class="row g-0 mx-auto my-auto justify-content-center">
+      <div id="multiCarousel" class="carousel-multi carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+               <div class="col-md-3">
+                  <div class="card">
+                     <div class="card-img">
+                        <svg class="img-fluid" width="500" height="100" xmlns="http://www.w3.org/2000/svg">
+                           <rect width="100%" height="100%" fill="#868e96"></rect>
+                           <text x="50%" y="50%" fill="#dee2e6" text-anchor="middle" dominant-baseline="central">Brand LOGO</text>
+                        </svg>
+                     </div>
+                     <div class="card-img-overlay">Slide 1</div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="col-md-3">
+                  <div class="card">
+                     <div class="card-img">
+                        <svg class="img-fluid" width="500" height="100" xmlns="http://www.w3.org/2000/svg">
+                           <rect width="100%" height="100%" fill="#868e96"></rect>
+                           <text x="50%" y="50%" fill="#dee2e6" text-anchor="middle" dominant-baseline="central">Brand LOGO</text>
+                        </svg>
+                     </div>
+                     <div class="card-img-overlay">Slide 2</div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="col-md-3">
+                  <div class="card">
+                     <div class="card-img">
+                        <svg class="img-fluid" width="500" height="100" xmlns="http://www.w3.org/2000/svg">
+                           <rect width="100%" height="100%" fill="#868e96"></rect>
+                           <text x="50%" y="50%" fill="#dee2e6" text-anchor="middle" dominant-baseline="central">Brand LOGO</text>
+                        </svg>
+                     </div>
+                     <div class="card-img-overlay">Slide 3</div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="col-md-3">
+                  <div class="card">
+                     <div class="card-img">
+                        <svg class="img-fluid" width="500" height="100" xmlns="http://www.w3.org/2000/svg">
+                           <rect width="100%" height="100%" fill="#868e96"></rect>
+                           <text x="50%" y="50%" fill="#dee2e6" text-anchor="middle" dominant-baseline="central">Brand LOGO</text>
+                        </svg>
+                     </div>
+                     <div class="card-img-overlay">Slide 4</div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="col-md-3">
+                  <div class="card">
+                     <div class="card-img">
+                        <svg class="img-fluid" width="500" height="100" xmlns="http://www.w3.org/2000/svg">
+                           <rect width="100%" height="100%" fill="#868e96"></rect>
+                           <text x="50%" y="50%" fill="#dee2e6" text-anchor="middle" dominant-baseline="central">Brand LOGO</text>
+                        </svg>
+                     </div>
+                     <div class="card-img-overlay">Slide 5</div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="col-md-3">
+                  <div class="card">
+                     <div class="card-img">
+                        <svg class="img-fluid" width="500" height="100" xmlns="http://www.w3.org/2000/svg">
+                           <rect width="100%" height="100%" fill="#868e96"></rect>
+                           <text x="50%" y="50%" fill="#dee2e6" text-anchor="middle" dominant-baseline="central">Brand LOGO</text>
+                        </svg>
+                     </div>
+                     <div class="card-img-overlay">Slide 6</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev bg-transparent w-aut" href="#multiCarousel" role="button" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         </a>
+         <a class="carousel-control-next bg-transparent w-aut" href="#multiCarousel" role="button" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         </a>
+      </div>
+   </div>
+</div>
+
+<!-- End of Multi Slide Carousel   -->
+
+<!-- Start of search  -->
+<div class="container mb-5">
+   <div class="card">
+      <div class="card-header">取扱商品検索 </div>
+      <div class="card-body">
+         <div class="row col-auto gy-2">
+            <div class="col-md">
+               <div class="form-floating">
+                  <input type="text" name="" id="" class="form-control" require>
+                  <label for="">メーカー</label>
+               </div>
+            </div>
+            <!-- End of col-->
+            <div class="col-md">
+               <div class="form-floating">
+                  <input type="text" name="" id="" class="form-control" require>
+                  <label for="">製品種別</label>
+               </div>
+            </div>
+            <!-- End of col-->
+            <div class="col-md">
+               <div class="form-floating">
+                  <input type="text" name="" id="" class="form-control" require>
+                  <label for="">製品名</label>
+               </div>
+            </div>
+            <!-- End of col-->
+            <div class="col-md">
+               <button type="submit" class="btn btn-lg btn-primary text-white">この内容で取扱商品を検索</button>
+            </div>
+            <!-- End of col-->
+         </div>
+      </div>
+   </div>
+   <!-- /.card -->
+</div>
+<!-- END of search  -->
+
+<!-- Start of service  -->
+<div class="container mb-5">
+   <div class="row gy-3">
+      <div class="col-md-4">
+         <div class="card">
+            <svg class="card-img-top" width="500" height="100" xmlns="http://www.w3.org/2000/svg">
+               <rect width="100%" height="100%" fill="#868e96"></rect>
+            </svg>
+            <div class="card-body">
+               <h5 class="card-title">冷凍自動制御機器及び資材販売</h5>
+               ダンフォス社、株式会社鷺宮製作所、ユーキャン株式会社を主に、各種制御機器を販売。膨張弁の選定等も行っております。 </div>
+         </div>
+         <!-- /.card -->
+      </div>
+      <div class="col-md-4">
+         <div class="card">
+            <svg class="card-img-top" width="500" height="100" xmlns="http://www.w3.org/2000/svg">
+               <rect width="100%" height="100%" fill="#868e96"></rect>
+            </svg>
+            <div class="card-body">
+               <div class="card-title">空調機器販売 </div>
+               日立グローバルライフソリューションズ株式会社、ダイキン工業株式会社の製品を主に、空調機器の設計・設備・販売・施工・保守・修理を行っております。 </div>
+         </div>
+         <!-- /.card -->
+      </div>
+      <div class="col-md-4">
+         <div class="card">
+            <svg class="card-img-top" width="500" height="100" xmlns="http://www.w3.org/2000/svg">
+               <rect width="100%" height="100%" fill="#868e96"></rect>
+            </svg>
+            <div class="card-body">
+               <div class="card-title">産業用機器販売 </div>
+               株式会社日立産機システムの製品を主に、エアコンプレッサ、トランス等設計・設備・販売・施工・保守・修理を行っております。 </div>
+         </div>
+         <!-- /.card -->
+      </div>
+   </div>
+</div>
+<!-- End of service  -->
+<main class="my-5">
+   <div class="container-fluid bg-light mb-5 py-5">
+      <div class="container position-relative">
+         <div class="row">
+            <div class="col-md-7">
+               <p class="lead">創業昭和45年。長年培った技術とノウハウを生かして業務を行っております。</p>
+               <p>デンマークに本社を置く、ダンフォス社の冷凍制御部品の北海道代理店として発足。その関連機器並びに冷凍・空調関連商品の販売、及び冷設、空調工事の施工をする企業として発展を続けています。 今まで培った技術を活かし、冷凍技術アドバイザーとして多様化する需要家各位のニーズに応えるべく新たな時代に向かって製品分野を広げています。系列会社の応援のもと顧客の良きパートナーとして技術のコーディネートを行い、環境問題に取組み、地域社会に貢献する企業を目指しております。</p>
+            </div>
+            <div class="col-md-5">
+               <div class="row g-3">
+                  <div class="col-md-6">
+                     <svg class="img-fluid" width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="100%" height="100%" fill="#868e96"></rect>
+                        <text x="50%" y="50%" fill="#dee2e6" text-anchor="middle" dominant-baseline="central">Brand image</text>
+                     </svg>
+                  </div>
+                  <!-- End of col-->
+                  <div class="col-md-6">
+                     <svg class="img-fluid" width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="100%" height="100%" fill="#868e96"></rect>
+                        <text x="50%" y="50%" fill="#dee2e6" text-anchor="middle" dominant-baseline="central">Brand image</text>
+                     </svg>
+                  </div>
+                  <!-- End of col-->
+                  <div class="col-md-12">
+                     <svg class="img-fluid" width="100%" height="300" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="100%" height="100%" fill="#868e96"></rect>
+                        <text x="50%" y="50%" fill="#dee2e6" text-anchor="middle" dominant-baseline="central">Brand image</text>
+                     </svg>
+                  </div>
+                  <!-- End of col-->
+               </div>
+               <!-- End of row -->
+            </div>
+         </div>
+         <div class="alert alert-light position-absolute bottom-0 start-25 end-25">
+            <p>デンマークに本社を置く、ダンフォス社の冷凍制御部品の北海道代理店として発足。その関連機器並びに冷凍・空調関連商品の販売、及び冷設、空調工事の施工をする企業として発展を続けています。 今まで培った技術を活かし、冷凍技術アドバイザーとして多様化する需要家各位のニーズに応えるべく新たな時代に向かって製品分野を広げています。系列会社の応援のもと顧客の良きパートナーとして技術のコーディネートを行い、環境問題に取組み、地域社会に貢献する企業を目指しております。</p>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="row gy-3">
+         <div class="col-md-6">
+            <div class="card">
+               <div class="row g-0">
+                  <div class="col-md-4">
+                     <svg class="card-img-top" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="100%" height="100%" fill="#868e96"></rect>
+                     </svg>
+                  </div>
+                  <div class="col-md-8">
+                     <div class="card-body">
+                        <h5 class="card-title">イタリア　Refrigera社との取引を開始しました</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a href="#" class="stretched-link">詳しくはこちら</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- /.card -->
+         </div>
+         <div class="col-md-6">
+            <div class="card">
+               <div class="row g-0">
+                  <div class="col-md-4">
+                     <svg class="card-img-top" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="100%" height="100%" fill="#868e96"></rect>
+                     </svg>
+                  </div>
+                  <div class="col-md-8">
+                     <div class="card-body">
+                        <h5 class="card-title">イタリア　Refrigera社との取引を開始しました</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a href="#" class="stretched-link">詳しくはこちら</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- /.card -->
+         </div>
+         <div class="col-md-4">
+            <div class="card">
+               <div class="card-header">2022年7月2日 </div>
+               <div class="card-body">
+                  <h5 class="card-title">イタリア　ZEC社との取引を開始しました</h5>
+                  <p class="card-text">イタリアの冷媒配管ホース、キャピラリホースを製造するZEC社との取引を開始致しました。 脈動・振動を防ぎ、柔軟に曲げられることで、多くの用途に対応致します。 サンプルもございますので、ご関心のある方はお問い合わせ下さい。</p>
+               </div>
+               <div class="card-footer">
+                  <a href="" class="btn btn-primary text-white">詳しくはこちら</a>
+               </div>
+            </div>
+            <!-- /.card -->
+         </div>
+         <div class="col-md-4">
+            <div class="card">
+               <div class="card-header">2022年6月12日 </div>
+               <div class="card-body">
+                  <h5 class="card-title">JUAVAC北海道校と業務提携を行いました</h5>
+                  <p class="card-text">JUAVACドローンエキスパートアカデミー北海道校と業務提携を行いました。 ドローンの講習会・資格取得、産業用ドローンの販売・サービス各種、ドローンを活用した設備点検に関してご用命の方は弊社までお気軽にご連絡を下さい。</p>
+               </div>
+               <div class="card-footer">
+                  <a href="" class="btn btn-primary">詳しくはこちら</a>
+               </div>
+            </div>
+            <!-- /.card -->
+         </div>
+         <div class="col-md-4">
+            <div class="card">
+               <div class="card-header">2022年6月12日 </div>
+               <div class="card-body">
+                  <h5 class="card-title">JUAVAC北海道校と業務提携を行いました</h5>
+                  <p class="card-text">JUAVACドローンエキスパートアカデミー北海道校と業務提携を行いました。 ドローンの講習会・資格取得、産業用ドローンの販売・サービス各種、ドローンを活用した設備点検に関してご用命の方は弊社までお気軽にご連絡を下さい。</p>
+               </div>
+               <div class="card-footer">
+                  <a href="" class="btn btn-primary">詳しくはこちら</a>
+               </div>
+            </div>
+            <!-- /.card -->
+         </div>
+         <div class="col-md-4">
+            <div class="card">
+               <div class="card-header">2022年6月12日 </div>
+               <div class="card-body">
+                  <h5 class="card-title">JUAVAC北海道校と業務提携を行いました</h5>
+                  <p class="card-text">JUAVACドローンエキスパートアカデミー北海道校と業務提携を行いました。 ドローンの講習会・資格取得、産業用ドローンの販売・サービス各種、ドローンを活用した設備点検に関してご用命の方は弊社までお気軽にご連絡を下さい。</p>
+               </div>
+               <div class="card-footer">
+                  <a href="" class="btn btn-primary">詳しくはこちら</a>
+               </div>
+            </div>
+            <!-- /.card -->
+         </div>
+         <div class="col-md-4">
+            <div class="card">
+               <div class="card-header">2022年6月12日 </div>
+               <div class="card-body">
+                  <h5 class="card-title">JUAVAC北海道校と業務提携を行いました</h5>
+                  <p class="card-text">JUAVACドローンエキスパートアカデミー北海道校と業務提携を行いました。 ドローンの講習会・資格取得、産業用ドローンの販売・サービス各種、ドローンを活用した設備点検に関してご用命の方は弊社までお気軽にご連絡を下さい。</p>
+               </div>
+               <div class="card-footer">
+                  <a href="" class="btn btn-primary">詳しくはこちら</a>
+               </div>
+            </div>
+            <!-- /.card -->
+         </div>
+      </div>
+   </div>
+   <!-- End of container -->
+   
+</main>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+   <!-- Section: Social media -->
+   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+         <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+      
+      <!-- Right -->
+      <div>
+         <a href="" class="me-4 text-reset">
+         <i class="fab fa-facebook-f"></i>
+         </a>
+         <a href="" class="me-4 text-reset">
+         <i class="fab fa-twitter"></i>
+         </a>
+         <a href="" class="me-4 text-reset">
+         <i class="fab fa-google"></i>
+         </a>
+         <a href="" class="me-4 text-reset">
+         <i class="fab fa-instagram"></i>
+         </a>
+         <a href="" class="me-4 text-reset">
+         <i class="fab fa-linkedin"></i>
+         </a>
+         <a href="" class="me-4 text-reset">
+         <i class="fab fa-github"></i>
+         </a>
+      </div>
+      <!-- Right -->
+   </section>
+   <!-- Section: Social media -->
+   
+   <!-- Section: Links  -->
+   <section class="">
+      <div class="container text-center text-md-start mt-5">
+         <!-- Grid row -->
+         <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+               <!-- Content -->
+               <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Company name </h6>
+               <p> Here you can use rows and columns to organize your footer content. Lorem ipsum
+                  dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+            <!-- Grid column -->
+            
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+               <!-- Links -->
+               <h6 class="text-uppercase fw-bold mb-4"> Products </h6>
+               <p>
+                  <a href="#!" class="text-reset">Angular</a>
+               </p>
+               <p>
+                  <a href="#!" class="text-reset">React</a>
+               </p>
+               <p>
+                  <a href="#!" class="text-reset">Vue</a>
+               </p>
+               <p>
+                  <a href="#!" class="text-reset">Laravel</a>
+               </p>
+            </div>
+            <!-- Grid column -->
+            
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+               <!-- Links -->
+               <h6 class="text-uppercase fw-bold mb-4"> Useful links </h6>
+               <p>
+                  <a href="#!" class="text-reset">Pricing</a>
+               </p>
+               <p>
+                  <a href="#!" class="text-reset">Settings</a>
+               </p>
+               <p>
+                  <a href="#!" class="text-reset">Orders</a>
+               </p>
+               <p>
+                  <a href="#!" class="text-reset">Help</a>
+               </p>
+            </div>
+            <!-- Grid column -->
+            
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+               <!-- Links -->
+               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+               <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+               <p>
+                  <i class="fas fa-envelope me-3"></i> info@example.com </p>
+               <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+               <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+         </div>
+         <!-- Grid row -->
+      </div>
+   </section>
+   <!-- Section: Links  -->
+   
+   <!-- Copyright -->
+   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);"> © 2021 Copyright: <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+   </div>
+   <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<script src="./js/addition.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
